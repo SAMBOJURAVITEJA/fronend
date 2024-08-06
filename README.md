@@ -1,3 +1,55 @@
+# Pokémon Management Application
+
+## Introduction
+This project is a full-stack application developed using ReactJS for the frontend and Node.js with Express.js for the backend. The application allows users to add and manage Pokémon, performing various CRUD operations.
+
+## Features
+- **Add Pokémon Page**: Allows users to add Pokémon with specific details such as owner name, direction, initial positions, name, ability, speed, and direction.
+- **List Pokémon Users Page**: Displays a table of Pokémon users with options to add, edit, or delete Pokémon.
+- **Home Page**: Lists Pokémon for a selected user and allows interaction with Pokémon through movement and visibility toggles.
+
+## Requirements
+- Node.js
+- npm (Node Package Manager)
+- ReactJS/ReactTS
+- Express.js
+
+## Installation
+### Backend
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>/backend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

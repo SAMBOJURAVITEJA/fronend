@@ -1,0 +1,118 @@
+.addPokeMonUser {
+  padding: 20px;
+  border:1px solid;
+  margin:30px;
+  overflow: none !important;
+}
+
+.addPokeyMonSelector,
+.addPokeyMonInput {
+  border: 1px solid;
+  padding: 2px;
+  height:30px;
+  width: 250px;
+  border-radius:4px;
+  margin-top:10px;
+  
+}
+
+.createPokeMonFormContainer {
+  display: flex;
+  padding: 10px;
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.addButtonContainer {
+  padding: 10px;
+  width: 100%;
+
+}
+
+.addPokeyMonButton1 {
+  height: 30px;
+  width: 150px;
+  outline:none;
+  cursor:pointer;
+  border-radius:8px;
+
+  background:red;
+  color: #ffffff;
+  border: none;
+  border-radius:8px;
+}
+
+.addPokeyMonButton2 {
+  height: 30px;
+  width: 150px;
+  background: green;
+  color: #ffffff;
+  margin-left:20px;
+  border: none;
+  border-radius:8px;
+  outline:none;
+  cursor:pointer;
+ 
+}
+.addPokeyMonButton3 {
+  height: 30px;
+  width: 150px;
+  background: #2403fc;
+  color: #ffffff;
+  margin-left:20px;
+  border: none;
+  border-radius:8px;
+  outline:none;
+  cursor:pointer;
+}
+.addPokeyMonButton4 {
+  height: 30px;
+  width: 150px;
+  border-radius:8px;
+  background: #a8329d;
+  color: #ffffff;
+  margin-left:20px;
+  border: none;
+  outline:none;
+  cursor:pointer;
+}
+
+.addPokeyMonHeading {
+  margin-left: 9px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+@media (min-width: 1280px) {
+  .ownerName,
+  .PokemonName,
+  .pokemonAbility,
+  .positionX,
+  .positionY,
+  .speed,
+  .direction {
+    flex: 1 1 calc(33.333% - 20px); /* Arrange items in three columns */
+    margin: 10px;
+    min-width: 250px;
+  }
+
+  .createPokeMonFormContainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 915px) {
+  .ownerName,
+  .PokemonName,
+  .pokemonAbility,
+  .positionX,
+  .positionY,
+  .speed,
+  .direction {
+    margin: 10px;
+  }
+  .createPokeMonFormContainer {
+    width: 80%;
+  }
+}

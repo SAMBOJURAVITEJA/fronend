@@ -1,0 +1,83 @@
+ .listPokemonUsers {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listPokemonUsers h2 {
+  margin-bottom: 30px;
+}
+
+.listPokemonUsers table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.listPokemonUsers table th,
+.listPokemonUsers table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.listPokemonUsers table th {
+  background-color: #f4f4f4;
+}
+
+.listPokemonUsers table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.listPokemonUsers table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.listPokemonUsers button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.listPokemonUsers button:hover {
+  background-color: #0056b3;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listPokemonbuttoncontainer{
+
+  width:80%;
+  display:flex;
+  justify-content:flex-end;
+} 
+
+.listPokeMonUsersButton {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: red !important;
+  color: #ffffff;
+  width: 150px;
+  outline:none;
+  cursor:pointer;
+  margin-bottom: 10px;
+}
+#specificButton {
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: green;
+  color: #ffffff;
+  width: 150px;
+  margin-bottom: 10px;
+}
